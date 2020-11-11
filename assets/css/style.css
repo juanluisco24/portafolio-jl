@@ -1,0 +1,32 @@
+:root {
+    --verde: #33e240;
+}
+
+.jl {
+    font-size: 55px;
+}
+
+.navbarcolor {
+    font-family: Inconsolata, open-sans;
+    color: var(--verde) !important;
+}
+
+header {
+    background-image: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 10rem;
+}
+
+.linea {
+    background-color: var(--verde);
+    color: var(--verde);
+    height: 2px;
+    width: 18rem;
+    display: inline-block;
+}
+
+.questrial {
+    font-family: Questrial, open-sans;
+}
