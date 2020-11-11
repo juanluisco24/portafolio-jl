@@ -36,16 +36,16 @@
 <!--agrege la clase ml-auto para alinear a la derecha la lista del navbar-->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                    <a class="nav-link navbarcolor mx-2" href="#">Sobre mí<span class="sr-only">(current)</span></a>
+                    <a class="nav-link navbarcolor mx-2" href="#about">Sobre mí<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link navbarcolor mx-2" href="#">Experiencia</a>
+                    <a class="nav-link navbarcolor mx-2" href="#exp">Experiencia</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link navbarcolor mx-2" href="#">Mis trabajos</a>
+                    <a class="nav-link navbarcolor mx-2" href="#work">Mis trabajos</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link navbarcolor mx-2" href="#">Contacto</a>
+                    <a class="nav-link navbarcolor mx-2" href="#contact">Contacto</a>
                     </li>
                 </ul>
                 </div>
@@ -64,7 +64,7 @@
 
 <!--Esta es la sección sobre mi-->
 
-    <section class="container d-none d-md-block">
+    <section id="about" class="container d-none d-md-block">
 
         <div class="text-center mt-5">
             <h5 class="inconsolata mb-0">
@@ -97,7 +97,7 @@
 
 <!--Sección mi experiencia-->
 
-    <div class="text-center">
+    <div id="exp" class="text-center">
         <h2 class="display-2 inconsolata mb-0">
             MI EXPERIENCIA
         </h2>
@@ -105,9 +105,9 @@
 
         <div class="text-center container mt-5">
 
-            <i class="fab fa-html5 fa-7x mx-4"></i>
-            <i class="fab fa-css3-alt fa-7x mx-4"></i>
-            <i class="fab fa-js-square fa-7x mx-4"></i>
+            <i class="fab fa-html5 fa-7x mx-4" data-toggle="tooltip" data-placement="top" title="HTML5"></i>
+            <i class="fab fa-css3-alt fa-7x mx-4" data-toggle="tooltip" data-placement="top" title="CSS3"></i>
+            <i class="fab fa-js-square fa-7x mx-4" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
 
         </div>
 
@@ -123,35 +123,36 @@
 
 <!--Sección Mis Trabajos-->
 
-    <div class="container-fluid bg-dark text-center pb-5">
+    <div id="work" class="container-fluid bg-dark text-center pb-5">
 
         <h2 class="display-2 inconsolata green pt-3 mb-0">
             MIS TRABAJOS
         </h2>
         <hr class="linea2 mx-0 my-0">
 
-
-
             <div class="card-deck mt-5 text-left">
                 <div class="card">
                 <img src="assets/img/meet-and-coffee.png" class="card-img-top" alt="Meet And Coffee">
                 <div class="card-body">
-                    <h5 class="card-title">Meet And Coffee</h5>
-                    <p class="card-text">Ejercicio de práctica de HTML y CSS</p>
+                    <h5 class="card-title inconsolata">Meet And Coffee</h5>
+                    <p class="card-text questrial">Ejercicio de práctica de HTML y CSS</p>
+                    <a class="btn btn-outline-success" data-toggle="modal" data-target="#meet-and-coffe">Ver más</a>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/iguana-page.png" class="card-img-top" alt="Iguana Page">
                 <div class="card-body">
-                    <h5 class="card-title">Iguana Page</h5>
-                    <p class="card-text">Ejercicio de práctica de HTML y CSS</p>
+                    <h5 class="card-title inconsolata">Iguana Page</h5>
+                    <p class="card-text questrial">Ejercicio de práctica de HTML y CSS</p>
+                    <a class="btn btn-outline-success" data-toggle="modal" data-target="#iguana">Ver más</a>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/cuppon-page.png" class="card-img-top" alt="Cuppon Page">
                 <div class="card-body">
-                    <h5 class="card-title">Cuppon Page</h5>
-                    <p class="card-text">Ejercicio de práctica de Bootstrap</p>
+                    <h5 class="card-title inconsolata">Cuppon Page</h5>
+                    <p class="card-text questrial">Ejercicio de práctica de Bootstrap</p>
+                    <a class="btn btn-outline-success" data-toggle="modal" data-target="#cuppon">Ver más</a>
                 </div>
                 </div>
              </div>
@@ -160,31 +161,112 @@
                 <div class="card">
                 <img src="assets/img/suricata-page.png" class="card-img-top" alt="Suricata">
                 <div class="card-body">
-                    <h5 class="card-title">Suricata</h5>
-                    <p class="card-text">Ejercicio de práctica de Bootstrap</p>
+                    <h5 class="card-title inconsolata">Suricata</h5>
+                    <p class="card-text questrial">Ejercicio de práctica de Bootstrap</p>
+                    <a class="btn btn-outline-success" data-toggle="modal" data-target="#suricata">Ver más</a>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/oliviaros-page.png" class="card-img-top" alt="Olivia Ros">
                 <div class="card-body">
-                    <h5 class="card-title">Olivia Ros</h5>
-                    <p class="card-text">Ejercicio de práctica de Bootstrap y jQuery</p>
+                    <h5 class="card-title inconsolata">Olivia Ros</h5>
+                    <p class="card-text questrial">Ejercicio de práctica de Bootstrap y jQuery</p>
+                    <a class="btn btn-outline-success" data-toggle="modal" data-target="#oliviaros">Ver más</a>
                 </div>
                 </div>
                 <div class="card">
                 <img src="assets/img/ricomida-page.png" class="card-img-top" alt="Ricomida">
                 <div class="card-body">
-                    <h5 class="card-title">Ricomida</h5>
-                    <p class="card-text">Ejercicio de práctica de Bootstrap, jQuery y JavaScript</p>
+                    <h5 class="card-title inconsolata">Ricomida</h5>
+                    <p class="card-text questrial">Ejercicio de práctica de Bootstrap, jQuery y JavaScript</p>
+                    <a class="btn btn-outline-success" data-toggle="modal" data-target="#ricomida">Ver más</a>
                 </div>
                 </div>
              </div>
 
     </div>
 
+<!--Modales de las tarjetas-->
+
+<!--Modal Meet And Coffee-->
+
+        <div class="modal fade" id="meet-and-coffe" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Meet And Coffee</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/meet-and-coffee.png" class="img-fluid my-3" alt="meet-and-coffe">
+                    <p>Elaboración de un Index y una segunda pagina con HTML y CSS usando todo lo aprendido en las lecturas y videos. Se debieron seguir parámetros específicos como enlaces, fuentes y tamaños, clases especificas y estructura de carpetas.</p>
+                    <div class="text-success text-center">
+                        <a href="https://github.com/juanluisco24/meet-and-coffe" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Modal Iguana Page-->
+
+        <div class="modal fade" id="iguana" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/iguana-page.png" class="img-fluid my-3" alt="iguana-page">
+                    <p>Elaboración de un Index con HTML y CSS. Se debieron seguir parámetros específicos de fuentes y tamaños, clases especificas y estructura de carpetas.</p>
+                    <div class="text-success text-center">
+                        <a href="https://github.com/juanluisco24/iguana" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Modal Cuppon-->
+
+        <div class="modal fade" id="cuppon" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Cuppon Page</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <img src="assets/img/cuppon-page.png" class="img-fluid my-3" alt="cuppon-page">
+                    <p>Elaboración de un Index con HTML, CSS y Bootstrap. La pagina debe ser responsiva en distintos tamaños, añadir cards, creación de formulario, uso de clases de Bootstrap, uso de iconos de FontAwasome y estructura de carpeta.</p>
+                    <div class="text-success text-center">
+                        <a href="https://github.com/juanluisco24/cuppon" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
 <!--Sección de Contacto-->
 
-    <div class="text-center">
+    <div id="contact" class="text-center">
 
         <h2 class="display-2 inconsolata green pt-5 mb-0">
             CONTACTO
