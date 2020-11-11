@@ -28,7 +28,7 @@
         <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
 <!--Este div lo cree para la clase container y asi centra el navbar-->
             <div class="container">
-                <a class="navbar-brand navbarcolor jl my-0 py-0" href="#">JL</a>
+                <a class="navbar-brand navbarcolor my-0 py-0" href="#">JUAN LUIS</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
                 </button>
@@ -36,7 +36,7 @@
 <!--agrege la clase ml-auto para alinear a la derecha la lista del navbar-->
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                    <a class="nav-link navbarcolor mx-2" href="#about">Sobre mí<span class="sr-only">(current)</span></a>
+                    <a class="nav-link navbarcolor mx-2" href="#about">Sobre mí</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link navbarcolor mx-2" href="#exp">Experiencia</a>
@@ -52,19 +52,19 @@
             </div>
         </nav>
 
-<!--Este es el Header-->
-
-        <header class="container-fluid text-center navbarcolor">
-            <div class="container">
-                <h2 class="questrial display-4">YO SOY</h2>
-                <hr class="linea mx-0 my-0">
-                <H1 class="display-2">JUAN LUIS</H1>
-            </div>
-        </header>
-
 <!--Esta es la sección sobre mi-->
 
-    <section id="about" class="container d-none d-md-block">
+    <section id="about">
+        <div class="jumbotron green">
+            <div class="text-center">
+                <h2 class="questrial display-4">YO SOY</h2>
+                <hr class="linea my-2">
+                <H1 class="display-2 inconsolata">JUAN LUIS</H1>
+            </div>
+        </div>
+    </section>
+
+    <section class="container d-none d-md-block">
 
         <div class="text-center mt-5">
             <h5 class="inconsolata mb-0">
@@ -194,12 +194,12 @@
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Meet And Coffee</h5>
+                <h5 class="modal-title inconsolata" id="exampleModalLabel">Meet And Coffee</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body questrial">
                     <img src="assets/img/meet-and-coffee.png" class="img-fluid my-3" alt="meet-and-coffe">
                     <p>Elaboración de un Index y una segunda pagina con HTML y CSS usando todo lo aprendido en las lecturas y videos. Se debieron seguir parámetros específicos como enlaces, fuentes y tamaños, clases especificas y estructura de carpetas.</p>
                     <div class="text-success text-center">
@@ -219,12 +219,12 @@
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Iguana Page</h5>
+                <h5 class="modal-title inconsolata" id="exampleModalLabel">Iguana Page</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body questrial">
                     <img src="assets/img/iguana-page.png" class="img-fluid my-3" alt="iguana-page">
                     <p>Elaboración de un Index con HTML y CSS. Se debieron seguir parámetros específicos de fuentes y tamaños, clases especificas y estructura de carpetas.</p>
                     <div class="text-success text-center">
@@ -244,16 +244,91 @@
             <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Cuppon Page</h5>
+                <h5 class="modal-title inconsolata" id="exampleModalLabel">Cuppon Page</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body questrial">
                     <img src="assets/img/cuppon-page.png" class="img-fluid my-3" alt="cuppon-page">
                     <p>Elaboración de un Index con HTML, CSS y Bootstrap. La pagina debe ser responsiva en distintos tamaños, añadir cards, creación de formulario, uso de clases de Bootstrap, uso de iconos de FontAwasome y estructura de carpeta.</p>
                     <div class="text-success text-center">
                         <a href="https://github.com/juanluisco24/cuppon" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Modal Suricata-->
+
+        <div class="modal fade" id="suricata" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title inconsolata" id="exampleModalLabel">Suricata</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body questrial">
+                    <img src="assets/img/suricata-page.png" class="img-fluid my-3" alt="suricata">
+                    <p>Elaboración de un Index con HTML, CSS y Bootstrap. La pagina debe ser responsiva en distintos tamaños, añadir cards, creación de formulario, uso de clases de Bootstrap, uso de iconos de FontAwasome, la sección de iconos no se debe ver en tamaños pequeños y estructura de carpeta.</p>
+                    <div class="text-success text-center">
+                        <a href="https://github.com/juanluisco24/suricata" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Modal Olvia Ros-->
+
+        <div class="modal fade" id="oliviaros" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title inconsolata" id="exampleModalLabel">Olivia Ros</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body questrial">
+                    <img src="assets/img/oliviaros-page.png" class="img-fluid my-3" alt="oliviaros">
+                    <p>Elaboración de un Index con HTML, CSS y Bootstrap. La pagina debe ser responsiva en distintos tamaños, añadir cards, creación de formulario, uso de clases de Bootstrap, uso de iconos de FontAwasome, implementacion de Tooltips, Modal, Popovers, Carousel y estructura de carpeta.</p>
+                    <div class="text-success text-center">
+                        <a href="https://github.com/juanluisco24/olivia-ros" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+<!--Modal Ricomida-->
+
+        <div class="modal fade" id="ricomida" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title inconsolata" id="exampleModalLabel">Ricomida</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body questrial">
+                    <img src="assets/img/ricomida-page.png" class="img-fluid my-3" alt="ricomida">
+                    <p>Elaboración de un Index con HTML, CSS y Bootstrap. La pagina debe ser responsiva en distintos tamaños, añadir cards, creación de formulario, uso de clases de Bootstrap, uso de iconos de FontAwasome, implementacion de Tooltips, Modal, Popovers, Carousel, añadir jQuery y estructura de carpeta.</p>
+                    <div class="text-success text-center">
+                        <a href="#" class="text-decoration-none text-reset display-4" target="_blank"><i class="far fa-file-code" data-toggle="tooltip" data-placement="right" title="Ver proyecto completo"></i></a>
                     </div>
                 </div>
                 <div class="modal-footer">

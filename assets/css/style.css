@@ -2,13 +2,20 @@
     --verde: #33e240;
 }
 
-.jl {
-    font-size: 55px;
-}
-
 .navbarcolor {
     font-family: Inconsolata, open-sans;
     color: var(--verde) !important;
+}
+
+#about .jumbotron {
+    background-image: url(../img/background-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 header {
