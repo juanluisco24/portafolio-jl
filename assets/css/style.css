@@ -27,10 +27,22 @@ header {
     display: inline-block;
 }
 
+.linea2 {
+    background-color: var(--verde);
+    color: var(--verde);
+    height: 2px;
+    width: 12rem;
+    display: inline-block;
+}
+
 .questrial {
     font-family: Questrial, open-sans;
 }
 
 .inconsolata {
     font-family: Inconsolata, open-sans;
+}
+
+.green {
+    color: var(--verde);
 }
