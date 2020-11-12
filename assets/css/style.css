@@ -2,6 +2,10 @@
     --verde: #33e240;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .navbarcolor {
     font-family: Inconsolata, open-sans;
     color: var(--verde) !important;
