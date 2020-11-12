@@ -7,7 +7,7 @@
     color: var(--verde) !important;
 }
 
-#about .jumbotron {
+.jumbotron {
     background-image: url(../img/background-image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +24,16 @@ header {
     background-size: cover;
     background-position: center;
     padding-bottom: 10rem;
+}
+
+.sobremi {
+    letter-spacing: 0.15rem;
+    line-height: 2.1rem;
+}
+
+.parrafo {
+    letter-spacing: 0.15rem;
+    line-height: 1.8rem;
 }
 
 .linea {
